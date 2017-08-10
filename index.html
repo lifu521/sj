@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>优学网</title>
+		<link rel="stylesheet" href="sj.css"/>
+		
+		<script>
+			var iScale = 1;
+			iScale = iScale / window.devicePixelRatio;
+			document.write('<meta name="viewport" content="width=device-width,initial-scale='+iScale+',minimum-scale='+iScale+',maximum-scale='+iScale+',user-scalable=no" />')
+			var iWidth = document.documentElement.clientWidth;
+			document.getElementsByTagName('html')[0].style.fontSize = iWidth / 18 + 'px';
+		</script>
+	</head>
+	<body>
+		<header class="header">
+			<a href="#"><img src="http://otd6kilbp.bkt.clouddn.com/%E5%9B%BE%E6%A0%871.png" alt="优学网" /></a>
+		</header>
+		<section class="nav">
+			<div class="nav_header">
+			    <a class="daily">首页</a>
+			    <!--<a href="#" class="longxuan-search">搜索</a>-->
+			</div>
+			<div class="nav_con clearfix">
+			    <a href="shenghuo.html" title="生活" http_src="shenghuo">生活</a>
+				<a href="ys.html" title="影视欣赏" http_src="yingshi">影视欣赏</a>
+				<a href="ssuo.html" title="资源搜索" http_src="search">资源工具</a>
+				<a href="mbsc.html" title="模板素材" http_src="moban">模板素材</a>				
+				<a href="yinyue.html" title="音乐" http_src="yinyue">音乐</a>
+				<a href="xuex.html" title="学习天堂" http_src="xuexi">学习天堂</a>
+			</div>
+		</section>
+		<footer>
+			<p>
+				<a href="http://www.sjs521.ml">电脑版</a><span>
+			</p>
+			<p>欢迎推荐给你身边的朋友使用</p>
+		</footer>
+		<script>
+			if ('addEventListener' in document) {  
+			    document.addEventListener('DOMContentLoaded', function() {  
+			        FastClick.attach(document.body);  
+			    }, false);  
+			}
+		</script>
+		<script src="http://apps.bdimg.com/libs/zepto/1.1.4/zepto.min.js"></script>
+		<script src="common/js/zepto_touch.js"></script>
+		<script src="common/js/search.js?v=20170204"></script>
+	</body>
+</html>
